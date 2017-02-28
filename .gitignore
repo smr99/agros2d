@@ -105,3 +105,11 @@ agros2d-library/__/
 pythonlab-library/__/
 CMake.vars
 *.ts
+.kdev4/
+agros2d.kdev4
+3rdparty/matio/matioConfig.h
+build-stamp
+compile_commands.json
+install_manifest.txt
+resources_source/resources.rc
+solver_external
