@@ -21,6 +21,11 @@ INCLUDE_DIRECTORIES(${CMAKE_HOME_DIRECTORY}/3rdparty/bson)
 INCLUDE_DIRECTORIES(${CMAKE_HOME_DIRECTORY}/3rdparty/quazip)
 INCLUDE_DIRECTORIES(${CMAKE_HOME_DIRECTORY}/3rdparty/paralution/src)
 
+include_directories(${PROJECT_BINARY_DIR}/../hermes/hermes2d/include/function)
+include_directories(${PROJECT_BINARY_DIR}/../hermes/hermes2d/include/mesh)
+include_directories(${PROJECT_BINARY_DIR}/../hermes/hermes2d/include/space)
+
+  
 # languages
 # message("Translations")
 FILE(GLOB lang_files "${CMAKE_HOME_DIRECTORY}/resources_source/lang/*.ts")
